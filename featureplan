@@ -1,0 +1,9 @@
+Add interactable buttons for player choice
+    query select the buttons to humanChoice
+    store the human choice and return it for further processing
+add visual ques of game progress instead of console logs.
+    add div to hold the scoreboard
+    add visual of player score
+    add visuals of computer score
+    add visuals of winner of the round 
+also to change that instead of 5 rounds the game keeps going each time player presses a button

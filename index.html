@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <script src="RPS.js"></script>
+    <h1>RPS Button Version</h1>
+    <button id="rock">Rock</button>
+    <button id="scissors">Scissors</button>
+    <button id="paper">Paper</button>
+    <script src="RPS.js" defer></script>
+
+<div class="container" id="scoreboard">
+   
+    <div class="item" id="player-Header">Player Score</div>
+    <div class="item" id="computer-Header">Computer Score</div>
+    <div class="item" id="playerScore">0</div>
+    <div class="item" id="computerScore">0</div>
+    <p id="winner">Winner:</p>
+</div>
 </body>
 </html>
